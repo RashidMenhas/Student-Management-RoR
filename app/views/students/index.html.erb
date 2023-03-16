@@ -3,12 +3,17 @@
 <td><%= link_to 'Add New Student ', new_student_path%></td>
 <br/>
 <br/>
-<table>
-  <thead>
+<table class="table table-dark table-hover table-striped">
+  <thead class="table-light border-primary table-bordered table-active">
     <tr>
       <th>Fist Name</th>
       <th>Last Name</th>
       <th>Email</th>
+      <th>DoB</th>
+      <th>permanent_contact_number</th>
+      <th>local_address</th>
+       <th>permanent_address</th>
+      <th>alternate_contact_number</th>
       <th colspan='4'>Action</th>
     </tr>
   </thead>
@@ -18,6 +23,11 @@
         <td><%= student.first_name%></td>
         <td><%= student.last_name%></td>
         <td><%= student.email%></td>
+        <td><%= student.dob%></td>
+        <td><%= student.permanent_contact_number%></td>
+        <td><%= student.local_address%></td>
+        <td><%= student.permanent_address%></td>
+        <td><%= student.alternate_contact_number%></td>
         <td><%= link_to 'View', student%></td>
         <td><%= link_to 'Edit', edit_student_path(student)%></td>
         <td><%= link_to 'Delete', student, method: :delete, data: {confirm: 'Are you sure to delete.?'}%></td>
