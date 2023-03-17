@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_16_155341) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_17_035936) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -29,11 +29,32 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_16_155341) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "courses_students", id: false, force: :cascade do |t|
+    t.bigint "course_id", null: false
+    t.bigint "student_id", null: false
+  end
+
   create_table "demos", force: :cascade do |t|
     t.string "name"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "projects", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "student_projects", force: :cascade do |t|
+    t.bigint "student_id", null: false
+    t.bigint "project_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["project_id"], name: "index_student_projects_on_project_id"
+    t.index ["student_id"], name: "index_student_projects_on_student_id"
   end
 
   create_table "students", force: :cascade do |t|
@@ -49,4 +70,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_16_155341) do
     t.string "alternate_contact_number"
   end
 
+  add_foreign_key "student_projects", "projects"
+  add_foreign_key "student_projects", "students"
 end
