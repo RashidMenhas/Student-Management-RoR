@@ -26,3 +26,16 @@ student.save
         email: "Student #{i+1} @gmail.com"
     )
 end
+
+Student.all.each do |student|
+    student.blogs.create(title: "Dummy Blog for Student #{student.id}", content:"custom content pending")
+    student.blogs.create(title: "Dummy Blog for Student #{student.id}", content:"custom content pending")
+
+end
+
+10.times do |i|
+    Course.create(
+        name: "Course #{i+1}",
+        description: "Course #{i+1}",
+    )
+end
