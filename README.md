@@ -5,8 +5,8 @@ This is Rail application for student management system. I explain all the rails 
 
 <div align="center">
 
-  <h3><b>Student Management System</b></h3>
-<!-- 
+  <h3><b>My Blog App</b></h3>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -201,4 +201,4 @@ I would like to thank... <a href="https://www.microverse.org/?gclid=CjwKCAiArY2f
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
