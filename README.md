@@ -111,8 +111,8 @@ Clone this repository to your desired folder:
 ```
  - mkdir my-folder
  - cd my-folder
- - git clone git@github.com:RashidMenhas/Blog-app.git
- - cd Blog-app
+ - https://github.com/RashidMenhas/Student-Management-RoR.git
+ - cd Student-Management-RoR
  - bundle install
  - rails db:create
  - rails db:migrate
