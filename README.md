@@ -37,9 +37,9 @@ This is Rail application for student management system. I explain all the rails 
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 My Blog App <a name="about-project"></a>
+# 📖 Student Management System App <a name="about-project"></a>
 
-> Blog is a rails app. In this app we can add blog, comments to the blog and likes posts.
+> Student Management system.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,7 +70,7 @@ This is Rail application for student management system. I explain all the rails 
 
 ### Key Features <a name="key-features"></a>
 
-- We can add, remove, update and display blogs.
+- We can add, remove, update and display stude.
 - It has user authentication.
 - It has also authorization feature.
 - It is well designed.
