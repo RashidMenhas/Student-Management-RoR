@@ -5,7 +5,7 @@ This is Rail application for student management system. I explain all the rails 
 
 <div align="center">
 
-  <h3><b>My Blog App</b></h3>
+  <h3><b>Student Management System</b></h3>
 
 </div>
 
