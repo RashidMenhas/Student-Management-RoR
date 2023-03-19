@@ -130,9 +130,6 @@ To run the project, execute the following command:
 
 - rspec.
 
-### Check Linter 
-
-- rubocop
 
 ### Deployment
 
