@@ -107,7 +107,7 @@ In order to run this project you need:
 Clone this repository.
 
 ```
- - mkdir my-folder
+ 
  - cd my-folder
  - https://github.com/RashidMenhas/Student-Management-RoR.git
  - cd Student-Management-RoR
