@@ -8,8 +8,11 @@ Rails.application.routes.draw do
   root 'students#index'
   # resources :students
 
-  namespace :admin do
-    resources :students
-  end
+  # namespace :admin do
+  #   resources :students
+  # end
 
+  scope module: :admin do
+     resources :students 
+  end
 end
