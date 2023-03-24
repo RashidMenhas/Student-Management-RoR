@@ -122,7 +122,7 @@ Clone this repository to your desired folder:
 
 To run the project, execute the following command:
 
-- rails server
+- rails server  or  rails s
 
 ### Run tests
 
