@@ -6,6 +6,13 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root 'students#index'
-  resources :students
+  # resources :students
 
+  # namespace :admin do
+  #   resources :students
+  # end
+
+  scope module: :admin do
+     resources :students 
+  end
 end
