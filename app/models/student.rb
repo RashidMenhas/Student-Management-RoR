@@ -1,4 +1,5 @@
 class Student < ApplicationRecord
+    paginates_per 50
     include Validation
     has_many :blogs
     has_and_belongs_to_many :courses
