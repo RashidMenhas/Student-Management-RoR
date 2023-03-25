@@ -1,3 +1,4 @@
+<div class='col-lg-12'>
 <p><%= notice %></p>
 <h1>Listing Students.</h1>
 <td><%= link_to 'Add New Student ', new_student_path%></td>
@@ -35,3 +36,5 @@
     <% end %>
   </tbody>
 </table>
+<%= paginate @students %>
+</div>
