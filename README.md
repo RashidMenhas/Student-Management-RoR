@@ -1,5 +1,5 @@
 # Student-Management-RoR
-This is Rail application for student management system. I explain all the rails feature in this app.
+This is Rail application for student management system.
 
 <a name="readme-top"></a>
 
@@ -104,10 +104,10 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository.
 
 ```
- - mkdir my-folder
+ 
  - cd my-folder
  - https://github.com/RashidMenhas/Student-Management-RoR.git
  - cd Student-Management-RoR
@@ -165,7 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can fork it easily.
+If you like this project you can fork it easily from Github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
